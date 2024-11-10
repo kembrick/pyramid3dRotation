@@ -4,9 +4,9 @@
 #include <cmath>
 #include "operations.h"
 
-const double a = 20, // side
-h = 30, // height
-deltaTime = 0.01; // rotation speed
+const float a = 20, // side
+            h = 30, // height
+            deltaTime = 0.001; // rotation frequency
 
 typedef struct RigidBody {
     matrix R;
